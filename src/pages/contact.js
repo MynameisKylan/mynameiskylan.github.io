@@ -29,7 +29,7 @@ const contact = () => {
         <ul>
           <li><a href='mailto: wong.kylan@gmail.com'>wong.kylan@gmail.com</a></li>
           <ListItem>
-            <ContactLink href="https://www.linkedin.com/in/kylan-wong-b0304a125/">
+            <ContactLink href="https://www.linkedin.com/in/kylan-wong-b0304a125/" target='_blank' rel='noopener noreferrer'>
               <Icon>
                 <FaLinkedin />
               </Icon>
@@ -37,7 +37,7 @@ const contact = () => {
             </ContactLink>
           </ListItem>
           <ListItem>
-            <ContactLink href="https://github.com/MynameisKylan">
+            <ContactLink href="https://github.com/MynameisKylan" target='_blank' rel='noopener noreferrer'>
               <Icon>
                 <FaGithub />
               </Icon>
