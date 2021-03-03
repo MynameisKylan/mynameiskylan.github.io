@@ -1,28 +1,32 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import styled from "styled-components"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+const Button = styled(Link)`
+  border-radius:5px;
+  background: rgba(0,0,0,0.8);
+  color:white;
+  padding:1em;
+  transition:0.2s ease;
+
+  &:hover {
+    opacity:0.9;
+  }
+`
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
-      formats={["AUTO", "WEBP", "AVIF"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
-    />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-    </p>
+    <div className='container'>
+      <h2>Hi. My name is Kylan, and I'm a full-stack web developer.</h2>
+      <p>
+        <Button to="/projects">My Portfolio</Button> <br />
+      </p>
+    </div>
   </Layout>
 )
 
