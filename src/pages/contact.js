@@ -1,9 +1,8 @@
 import * as React from "react"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 import styled from "styled-components"
-import { FaLinkedin, FaGithub, FaExternalLinkAlt } from "react-icons/fa"
+import { FaLinkedin, FaGithub } from "react-icons/fa"
 
 const Icon = styled.span`
   font-size: 2em;
@@ -29,7 +28,7 @@ const contact = () => {
         <ul>
           <li><a href='mailto: wong.kylan@gmail.com'>wong.kylan@gmail.com</a></li>
           <ListItem>
-            <ContactLink href="https://www.linkedin.com/in/kylan-wong-b0304a125/" target='_blank' rel='noopener noreferrer'>
+            <ContactLink href="https://www.linkedin.com/in/kylanwong/" target='_blank' rel='noopener noreferrer'>
               <Icon>
                 <FaLinkedin />
               </Icon>

@@ -27,7 +27,7 @@ const NavLink = styled(Link)`
   padding: 1em;
   transition: 0.2s ease;
   height:53px;
-  border-bottom: ${props => props.active == 'true' ? '5px solid lightgrey' : 'none'};
+  border-bottom: ${props => props.active === 'true' ? '5px solid lightgrey' : 'none'};
 
   &:active {
     border-bottom: 5px solid white;

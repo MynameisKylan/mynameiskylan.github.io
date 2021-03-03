@@ -38,7 +38,7 @@ const projects = () => {
           <h3>WhereDoWeEat</h3>
           <p><Link href='https://fast-shelf-07613.herokuapp.com' target='_blank' rel='noopener noreferrer'>Live on Heroku <FaExternalLinkAlt /></Link></p>
           <p><Link href='https://github.com/MynameisKylan/WhereDoWeEat' target='_blank' rel='noopener noreferrer'>GitHub Repo <FaExternalLinkAlt /></Link></p>
-          <p>An app that allows users to rate restaurants, create parties, and recieve personalized recommendations based the party's preferences.</p>
+          <p>An app that allows users to rate restaurants, create parties, and receive personalized recommendations based the party's preferences.</p>
           <h4>Highlights:</h4>
           <ul>
             <li>Search by location, price and type of restaurant</li>
@@ -82,6 +82,29 @@ const projects = () => {
         <StaticImage
           src={"../images/OdinFacebook.png"}
           alt={`A screenshot showing a page from OdinFacebook`}
+          className='project-image'
+        ></StaticImage>
+      </ProjectContainer>
+      <ProjectContainer>
+        <InfoContainer>
+          <h3>Chess</h3>
+          <p><Link href='https://repl.it/badge/github/MynameisKylan/Chess' target='_blank' rel='noopener noreferrer'>Run on Repl.it <FaExternalLinkAlt /></Link></p>
+          <p><Link href='https://github.com/MynameisKylan/Chess' target='_blank' rel='noopener noreferrer'>GitHub Repo <FaExternalLinkAlt /></Link></p>
+          <p>A Chess game playable on the command line.</p>
+          <h4>Highlights:</h4>
+          <ul>
+            <li>Full ruleset (en passant, castling, promotion, stalemate, etc.) </li>
+            <li>Save to and load from a .txt save file</li>
+            <li>Tested with RSpec</li>
+          </ul>
+          <h4>Tech Stack:</h4>
+          <ul>
+            <li>Ruby</li>
+          </ul>
+        </InfoContainer>
+        <StaticImage
+          src={"../images/Chess2.png"}
+          alt={`A screenshot showing a terminal output from Chess`}
           className='project-image'
         ></StaticImage>
       </ProjectContainer>
