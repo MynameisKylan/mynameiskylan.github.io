@@ -7,8 +7,10 @@ import { FaExternalLinkAlt } from 'react-icons/fa'
 
 const ProjectContainer = styled.div`
   display: flex;
-  margin: 2em;
+  margin: 2em auto;
   justify-content:space-around;
+  box-shadow: 0 0 25px lightgrey;
+  max-width:1300px;
 
   @media (max-width: 900px) {
     flex-direction:column;
@@ -17,6 +19,7 @@ const ProjectContainer = styled.div`
 
 const InfoContainer = styled.div`
   margin:auto;
+  padding:1em;
   text-align:center;
   max-width: 700px;
 `
@@ -57,6 +60,7 @@ const projects = () => {
           src={"../images/WhereDoWeEat2.png"}
           alt={`A screenshot showing a page from WhereDoWeEat`}
           className='project-image'
+          style={{margin: 1 + 'em'}}
         ></StaticImage>
       </ProjectContainer>
       <ProjectContainer className='reverse'>
@@ -83,6 +87,7 @@ const projects = () => {
           src={"../images/OdinFacebook.png"}
           alt={`A screenshot showing a page from OdinFacebook`}
           className='project-image'
+          style={{margin: 1 + 'em'}}
         ></StaticImage>
       </ProjectContainer>
       <ProjectContainer>
@@ -106,6 +111,7 @@ const projects = () => {
           src={"../images/Chess2.png"}
           alt={`A screenshot showing a terminal output from Chess`}
           className='project-image'
+          style={{margin: 1 + 'em'}}
         ></StaticImage>
       </ProjectContainer>
     </Layout>
