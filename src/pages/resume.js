@@ -231,7 +231,7 @@ const resume = () => {
                   personalized recommendations based on the party's preferences.
                 </li>
                 <li>Responsively designed and powered by Yelp's Fusion API.</li>
-                <li>Created with React, Rails, HTML, CSS.</li>
+                <li>Created with React, Rails, HTML/JSX, CSS.</li>
               </ul>
             </Description>
           </Job>
@@ -249,6 +249,29 @@ const resume = () => {
                 </li>
                 <li>Responsive design and integrated Facebook login option.</li>
                 <li>Created with full-stack Ruby on Rails, HTML, CSS.</li>
+              </ul>
+            </Description>
+          </Job>
+          <Job>
+            <Title>
+              <p>
+                <b>OurChat</b>
+              </p>
+            </Title>
+            <Description>
+              <ul>
+                <li>
+                  A messenger clone where users can create conversations with
+                  zero or more other users and instant message.
+                </li>
+                <li>
+                  Websockets implemented with Rails' ActionCable framework.
+                </li>
+                <li>
+                  API Authorization handled with JSON web tokens in HTTP-only
+                  cookies.
+                </li>
+                <li>Created with React, Rails, HTML/JSX, CSS.</li>
               </ul>
             </Description>
           </Job>
