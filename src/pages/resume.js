@@ -10,7 +10,7 @@ import {
   FaFileDownload,
 } from "react-icons/fa"
 import styled from "styled-components"
-import resumeFile from "../files/Kylan_Wong_Web_Developer.pdf"
+import resumeFile from "../files/KylanWongSoftwareEngineer.pdf"
 
 const DownloadLink = styled.a`
   padding: 1em;
@@ -81,7 +81,7 @@ const resume = () => {
   return (
     <Layout active="resume">
       <div style={{ textAlign: "center", marginTop: 3 + "em" }}>
-        <DownloadLink href={resumeFile} download="Kylan_Wong_Web_Developer">
+        <DownloadLink href={resumeFile} download="KylanWongSoftwareEngineer">
           <FaFileDownload />
           Download As PDF
         </DownloadLink>
@@ -136,8 +136,7 @@ const resume = () => {
           <b>SUMMARY</b>
         </h4>
         <p>
-          Full-stack web developer with a passion for creating clean and
-          functional web apps.{" "}
+          Full-stack engineer and lifelong student with a passion for finding elegant solutions to complex challenges.{" "}
         </p>
 
         <h4>
@@ -147,67 +146,29 @@ const resume = () => {
           <Job>
             <Title>
               <p>
-                <b>Research Associate I</b>
+                <b>Software Engineer</b>
               </p>
-              <p>June 2019 - August 2020</p>
+              <p>May 2021 - Present</p>
             </Title>
             <Description>
               <p>
-                <b>Omniome</b> | San Diego, California
+                <b>Ezoic</b> | Carlsbad, California
               </p>
               <ul>
                 <li>
-                  Led service group of Biochemistry department: assist
-                  departments cross-company through production of sequencing
-                  precursors.
+                  Built and maintained internal and customer-facing tools using PHP, Go, JavaScript
                 </li>
                 <li>
-                  Coordinate and troubleshoot across groups - surface chemistry,
-                  technical support, engineering.
+                  Developed and launched new community forums in collaboration with one other developer.
                 </li>
                 <li>
-                  Collect, analyze, and present monthly
-                  sequencing/bioinformatics metrics.
+                  Designed and delivered end-to-end solutions for feature requests, from database design (MySQL) to frontend presentation.
                 </li>
                 <li>
-                  Onboard new group members with technical training on
-                  instrumentation and process flow.
+                  Expanded internal metrics tools to aggregate and display usage data of customer facing services.
                 </li>
                 <li>
-                  Write and update basic python scripts for data analysis.
-                </li>
-              </ul>
-            </Description>
-          </Job>
-          <Job>
-            <Title>
-              <p>
-                <b>Drug Substance Manufacturing Associate</b>
-              </p>
-              <p>May 2018 - June 2019</p>
-            </Title>
-            <Description>
-              <p>
-                <b>Ajinomoto Bio-Pharma Services</b> | San Diego, California
-              </p>
-              <ul>
-                <li>
-                  Maintain strict GMP and GDP compliance – up to date SOP
-                  training, precise and efficient execution of process batch
-                  records.
-                </li>
-                <li>
-                  Co-led 45 successful runs of homogenization processes –
-                  organized material, equipment, batch record and personnel
-                  needs.
-                </li>
-                <li>
-                  Reduced documentation errors by 55% by implementing end-of-day
-                  batch record reviews.
-                </li>
-                <li>
-                  Awarded Drug Substance employee of the month for GDP
-                  compliance, technical expertise, and communication skills.
+                  Utilized a continuous integration workflow to swiftly deploy robust features.
                 </li>
               </ul>
             </Description>
@@ -320,12 +281,13 @@ const resume = () => {
         <div>
           <ul>
             <li>
-              Front-End: Reactjs, Javascript, HTML, CSS, Responsive Design
+              Front-End: React, Vue.js, JavaScript, jQuery, HTML, CSS
             </li>
-            <li>Back-End: Ruby, Ruby On Rails</li>
+            <li>Back-End: PHP, Laravel, Go, Ruby, Ruby On Rails</li>
+            <li>HTTP/AJAX Requests, RESTful APIs, CRUD Operations, Asynchronous Programming</li>
             <li>Version Control: Git</li>
-            <li>HTTP/AJAX Requests, Asynchronous Programming</li>
-            <li>RESTful APIs, CRUD Operations</li>
+            <li>Object Oriented Design</li>
+            <li>MySQL, Relational Databases</li>
           </ul>
         </div>
       </Resume>
