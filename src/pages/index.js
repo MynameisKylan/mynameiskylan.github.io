@@ -26,7 +26,7 @@ const IndexPage = () => (
         src={"../images/kylan(1).jpg"}
         alt={"Me!"}
         id="profile-image"
-        style={{ width: 60 + "%", overflow: "visible" }}
+        style={{ width: 60 + "%" }}
         aspectRatio={1}
       />
       <h2>Hi. My name is Kylan, and I'm a full-stack web developer.</h2>

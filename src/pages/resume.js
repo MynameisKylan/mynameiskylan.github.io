@@ -124,11 +124,11 @@ const resume = () => {
               <FaCloud />
             </IconWrapper>
             <a
-              href="https://mynameiskylan.github.io/Portfolio/"
+              href="https://mynameiskylan.github.io/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              mynameiskylan.github.io/Portfolio/
+              mynameiskylan.github.io
             </a>
           </Info>
         </ContactInfo>

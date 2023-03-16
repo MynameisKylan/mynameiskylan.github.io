@@ -27,9 +27,18 @@ const InfoContainer = styled.div`
 const Link = styled.a`
   padding: 1em;
   color: #154485;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  justify-content: center;
   &:hover {
     text-decoration: underline;
   }
+`
+
+const CenteredDiv = styled.div`
+  display: flex;
+  justify-content: center;
 `
 
 const projects = () => {
@@ -39,24 +48,26 @@ const projects = () => {
       <ProjectContainer>
         <InfoContainer>
           <h3>WhereDoWeEat</h3>
-          <p>
-            <Link
+          <CenteredDiv>
+            {/* <Link
               href="https://fast-shelf-07613.herokuapp.com"
               target="_blank"
               rel="noopener noreferrer"
+              class="external-link"
             >
               Live on Heroku <FaExternalLinkAlt />
-            </Link>
-          </p>
-          <p>
+            </Link> */}
+          </CenteredDiv>
+          <CenteredDiv>
             <Link
               href="https://github.com/MynameisKylan/WhereDoWeEat"
               target="_blank"
               rel="noopener noreferrer"
+              class="external-link"
             >
               GitHub Repo <FaExternalLinkAlt />
             </Link>
-          </p>
+          </CenteredDiv>
           <p>
             An app that allows users to rate restaurants, create parties, and
             receive personalized recommendations based the party's preferences.
@@ -85,24 +96,26 @@ const projects = () => {
       <ProjectContainer className="reverse">
         <InfoContainer>
           <h3>OdinFacebook</h3>
-          <p>
+          {/* <CenteredDiv>
             <Link
               href="https://gentle-oasis-15615.herokuapp.com"
               target="_blank"
               rel="noopener noreferrer"
+              class="external-link"
             >
               Live on Heroku <FaExternalLinkAlt />
             </Link>
-          </p>
-          <p>
+          </CenteredDiv> */}
+          <CenteredDiv>
             <Link
               href="https://github.com/MynameisKylan/odin-facebook"
               target="_blank"
               rel="noopener noreferrer"
+              class="external-link"
             >
               GitHub Repo <FaExternalLinkAlt />
             </Link>
-          </p>
+          </CenteredDiv>
           <p>
             A Facebook clone application where users can add friends and create,
             comment on, and like posts.
@@ -131,24 +144,26 @@ const projects = () => {
       <ProjectContainer>
         <InfoContainer>
           <h3>OurChat</h3>
-          <p>
+          {/* <CenteredDiv>
             <Link
               href="https://our-chat-mynameiskylan.herokuapp.com/"
               target="_blank"
               rel="noopener noreferrer"
+              class="external-link"
             >
               Live on Heroku <FaExternalLinkAlt />
             </Link>
-          </p>
-          <p>
+          </CenteredDiv> */}
+          <CenteredDiv>
             <Link
               href="https://github.com/MynameisKylan/OurChat"
               target="_blank"
               rel="noopener noreferrer"
+              class="external-link"
             >
               GitHub Repo <FaExternalLinkAlt />
             </Link>
-          </p>
+          </CenteredDiv>
           <p>
             A messenger clone where users can create conversations with zero or
             more users. Messages are broadcast via the pub/sub model of
@@ -186,7 +201,7 @@ const projects = () => {
           style={{ margin: 1 + "em" }}
         ></StaticImage>
       </ProjectContainer>
-      <ProjectContainer style={{ display: "none" }}>
+      {/* <ProjectContainer>
         <InfoContainer>
           <h3>Chess</h3>
           <p>
@@ -227,7 +242,7 @@ const projects = () => {
           className="project-image"
           style={{ margin: 1 + "em" }}
         ></StaticImage>
-      </ProjectContainer>
+      </ProjectContainer> */}
     </Layout>
   )
 }
