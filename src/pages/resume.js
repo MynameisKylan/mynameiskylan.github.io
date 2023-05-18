@@ -136,7 +136,9 @@ const resume = () => {
           <b>SUMMARY</b>
         </h4>
         <p>
-          Full-stack engineer and lifelong student with a passion for finding elegant solutions to complex challenges.{" "}
+          Full-stack engineer and lifelong student with a proven ability to work
+          independently, take ownership of projects, and deliver scalable code
+          in fast paced environments.{" "}
         </p>
 
         <h4>
@@ -156,19 +158,29 @@ const resume = () => {
               </p>
               <ul>
                 <li>
-                  Built and maintained internal and customer-facing tools using PHP, Go, JavaScript
+                  Designed and implemented APIs, cron jobs, user interfaces, and
+                  application features using Go, JavaScript, and PHP.
                 </li>
                 <li>
-                  Developed and launched new community forums in collaboration with one other developer.
+                  Implemented unit tests using the built-in Go testing package
+                  to ensure maintainable and correct code.
                 </li>
                 <li>
-                  Designed and delivered end-to-end solutions for feature requests, from database design (MySQL) to frontend presentation.
+                  Designed MySQL database schemas to allow for efficient data
+                  querying.
                 </li>
                 <li>
-                  Expanded internal metrics tools to aggregate and display usage data of customer facing services.
+                  Utilized a suite of AWS cloud computing services integrated
+                  with the AWS Go SDK. Services used include: S3, Lambda, API
+                  Gateway, Cloudfront, RDS.
                 </li>
                 <li>
-                  Utilized a continuous integration workflow to swiftly deploy robust features.
+                  Codeveloped client-facing features to improve ease-of-use and
+                  feature adoption, directly driving a 5% revenue increase.
+                </li>
+                <li>
+                  Used agile methodologies and task boards for effective project
+                  prioritization and progress reporting.
                 </li>
               </ul>
             </Description>
@@ -280,11 +292,8 @@ const resume = () => {
         </h4>
         <div>
           <ul>
-            <li>
-              Front-End: React, Vue.js, JavaScript, jQuery, HTML, CSS
-            </li>
-            <li>Back-End: PHP, Laravel, Go, Ruby, Ruby On Rails</li>
-            <li>HTTP/AJAX Requests, RESTful APIs, CRUD Operations, Asynchronous Programming</li>
+            <li>Front-End: Vue.js, React, JavaScript, jQuery, HTML, CSS</li>
+            <li>Back-End: Go, PHP, Laravel, Ruby, Ruby On Rails</li>
             <li>Version Control: Git</li>
             <li>Object Oriented Design</li>
             <li>MySQL, Relational Databases</li>
